@@ -1,0 +1,9 @@
+---
+applications:
+- name: config
+  memory: 512M
+  path: config.jar
+  instances: 1
+  buildpack: java_buildpack
+  services:
+  - config-server-info
